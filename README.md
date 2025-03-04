@@ -10,30 +10,13 @@
    ```sh
    ./mvnw spring-boot:run
    ```
-### API
-1. POST /auth/addNewUser - Đăng ký người dùng mới
-2. POST /auth/generateToken - Xác thực và nhận JWT token
-3. GET /auth/welcome - Endpoint công khai
-4. GET /auth/user/userProfile - Hồ sơ người dùng (yêu cầu ROLE_USER)
-5. GET /auth/admin/adminProfile - Hồ sơ quản trị viên (yêu cầu ROLE_ADMIN)
-6. POST /api/admin/create - Tạo tài nguyên mới (yêu cầu ROLE_ADMIN)
-7. PUT /api/admin/update - Cập nhật tài nguyên (yêu cầu ROLE_ADMIN)
-8. DELETE /api/admin/delete - Xóa tài nguyên (yêu cầu ROLE_ADMIN)
-9. GET /api/user/profile - Lấy thông tin hồ sơ người dùng (yêu cầu ROLE_USER)
 
-![WelcomePage](https://github.com/user-attachments/assets/b128b2dd-6797-4ae8-b759-33e9435303b1)
-
-![Register](https://github.com/user-attachments/assets/e0ccef5a-9a67-4e1a-aea8-6aeae30297a6)
-
-![Login](https://github.com/user-attachments/assets/7d3d80d6-9828-443c-8e14-7b8ed613f767)
-
-![UserProfilewithJWT](https://github.com/user-attachments/assets/24931065-2690-489d-88ec-9a5c762a0324)
-
-![AccountListWithAdminJWT](https://github.com/user-attachments/assets/36c26f1d-e849-4490-920d-3cf50627c80b)
-
-![UpdateAccount](https://github.com/user-attachments/assets/85a6240a-5ffc-4055-8cb3-acbb725146b5)
-
-![DeleteAccount](https://github.com/user-attachments/assets/d33bbaf3-b695-4977-8325-dc9242c5532b)
+![fe97cba7-019d-462b-8d89-8d713230abf2](https://github.com/user-attachments/assets/f4ee2c96-af8d-41c6-8a01-52fc745f293a)
+![f160a6ef-d093-41c5-b582-eaaebf10e335](https://github.com/user-attachments/assets/e75c8e12-9f00-42f0-822a-f76d882af193)
+![cd972a5c-a3cb-4976-92a2-6935b2c34875](https://github.com/user-attachments/assets/5c7d4a35-8d6e-4927-9214-a68667fd7eee)
+![594284c5-b8f5-4fca-8e7f-b89cba3f5653](https://github.com/user-attachments/assets/7601c2a7-6cfc-40e7-82e6-8ccba34287e9)
+![37c5aba8-4f8a-4071-aacb-caa01ace4d31](https://github.com/user-attachments/assets/3d01b8bd-938f-4c62-a6af-31af35b70e07)
+![5ce42ab4-912b-472c-b071-c7c5cfdd53a1](https://github.com/user-attachments/assets/a2e686bd-9d3d-41d4-99f1-f65f598456a0)
 
 
 
